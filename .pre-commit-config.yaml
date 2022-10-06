@@ -27,4 +27,16 @@ repos:
     rev: 22.8.0
     hooks:
       - id: black
-        args: ["--config=pyproject.toml"]
+        args: ["--config", "pyproject.toml"]
+
+  # Sort imports
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        # ... isort BUG: path not working => have to relly on default path
+        # args: ["--settings-file", "pyproject.toml"]
+        # args: ["--settings-path", "pyproject.toml"]
+
+  # Local Linting
+  # ...
