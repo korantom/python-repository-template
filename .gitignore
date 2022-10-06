@@ -1,0 +1,30 @@
+# .gitignore
+
+################################################################################
+### Python ###
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+################################################################################
+### JupyterNotebooks ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+################################################################################
+### macOS ###
+
+# General
+.DS_Store
+Icon
+._*
