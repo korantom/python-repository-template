@@ -38,5 +38,12 @@ repos:
         # args: ["--settings-file", "pyproject.toml"]
         # args: ["--settings-path", "pyproject.toml"]
 
-  # Local Linting
-  # ...
+  # # Local Linting (local: to have acces to the local virtual env)
+  # - repo: local
+  #   hooks:
+  #     - id: pylint
+  #       name: pylint
+  #       entry: pylint --rcfile=pyproject.toml
+  #       language: system
+  #       types: [python]
+  #       require_serial: true
