@@ -1,6 +1,6 @@
 # python-repository-template
 
-Should become a simple python project template, for fast
+Minimal simple python project template WIP
 
 ## TODO:
 
@@ -28,3 +28,17 @@ Should become a simple python project template, for fast
 - poetry?
 
 - TUI with config options?
+
+  - use black?
+  - use linter?
+  - ...
+  - create venv / conda env
+    - python version
+    - ...
+
+- make file
+
+## Commands
+
+- `pip install -r <requirements.txt | ...>`
+- `pre-commit install`
